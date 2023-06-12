@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Css Files -->
+    <link rel="stylesheet" href="css/syle.css" />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <!-- Font Awesome Library -->
+    <link rel="stylesheet" href="css/all.min.css" />
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <title>Template 9</title>
+  </head>
+  <body>
+    <!-- Start Header -->
+    <header>
+      <div class="container">
+        <div class="logo">
+          <h2>SEO Dream</h2>
+          <img src="images/logo-icon.png" alt="" />
+        </div>
+        <nav>
+          <i class="fa fa-bars"></i>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#features">Features</a></li>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact Us</a></li>
+            <li>
+              <div class="btn-box">
+                <button>Get Your Quote</button>
+                <div class="pseudo-element"></div>
+              </div>
+            </li>
+          </ul>
+        </nav>
+      </div>
+      <script>
+        const icon = document.querySelector("nav i.fa-bars");
+
+        const list = document.querySelector("nav ul");
+
+        icon.addEventListener("click", function () {
+          if (list.style.display === "none" || list.style.display === "") {
+            list.style.display = "flex";
+          } else {
+            list.style.display = "none";
+          }
+        });
+      </script>
+    </header>
+    <!-- End Header -->
+    <!-- Start Hero -->
+    <section class="hero">
+      <div class="container">
+        <div class="text">
+          <div class="box">
+            <div class="side">
+              <h4>Agency Status:</h4>
+              <h2>Ready Work</h2>
+            </div>
+            <div class="side">
+              <h4>Price:</h4>
+              <h2>$720/Month</h2>
+            </div>
+            <div class="side">
+              <h4>Schedules:</h4>
+              <h2>$450/Meeting</h2>
+            </div>
+          </div>
+          <h1>SEO & Digital Marketing Agency</h1>
+          <div class="btn-box">
+            <button>Get Your Quote</button>
+            <div class="pseudo-element"></div>
+          </div>
+        </div>
+        <div class="image">
+          <img src="images/banner-right-image.png" alt="" />
+        </div>
+      </div>
+    </section>
+    <!-- End Hero -->
+    <!-- Start Features -->
+    <section class="features" id="features">
+      <div class="container">
+        <div class="big-box">
+          <div class="f-box box">
+            <div class="feature">
+              <div class="out-image">
+                <img src="images/features-number-01.png" alt="" />
+                <h2>01</h2>
+              </div>
+              <img src="images/features-icon-black-01.png" alt="" />
+              <div class="hidden">
+                <img src="images/features-icon-white-01.png" alt="" />
+              </div>
+              <h2>Reach Out</h2>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </div>
+            <div class="feature">
+              <div class="out-image">
+                <img src="images/features-number-02.png" alt="" />
+                <h2>02</h2>
+              </div>
+              <img src="images/features-icon-black-02.png" alt="" />
+              <div class="hidden" style="top: 16%">
+                <img src="images/features-icon-white-02.png" alt="" />
+              </div>
+              <h2>Develop a Strategy</h2>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </div>
+            <div class="feature">
+              <div class="out-image">
+                <img src="images/features-number-03.png" alt="" />
+                <h2>03</h2>
+              </div>
+              <img src="images/features-icon-black-01.png" alt="" />
+              <div class="hidden">
+                <img src="images/features-icon-white-01.png" alt="" />
+              </div>
+              <h2>Implementation</h2>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </div>
+            <div class="feature">
+              <div class="out-image">
+                <img src="images/features-number-04.png" alt="" />
+                <h2>04</h2>
+              </div>
+              <img src="images/features-icon-black-02.png" alt="" />
+              <div class="hidden" style="top: 16%">
+                <img src="images/features-icon-white-02.png" alt="" />
+              </div>
+              <h2>Analyze the result</h2>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </div>
+          </div>
+          <div class="p-box box">
+            <div class="progress">
+              <div class="circle">
+                <h1>80%</h1>
+                <h4>HTML/CSS/JS</h4>
+              </div>
+            </div>
+            <div class="progress">
+              <div class="circle">
+                <h1>60%</h1>
+                <h4>WordPress</h4>
+              </div>
+            </div>
+            <div class="progress">
+              <div class="circle">
+                <h1>90%</h1>
+                <h4>Marketing</h4>
+              </div>
+            </div>
+            <div class="progress">
+              <div class="circle">
+                <h1>70%</h1>
+                <h4>Photoshop</h4>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Features -->
+    <!-- Start About -->
+    <section class="about" id="about">
+      <div class="container">
+        <div class="image">
+          <img src="images/about-left-image.png" alt="" />
+        </div>
+        <div class="text">
+          <div class="heading">
+            <h4>ABOUT US</h4>
+            <h1>
+              Top <span>Marketing</span> Agency & Consult Your Website
+              <span>With Us</span>
+            </h1>
+          </div>
+          <div class="numbers">
+            <div class="projects">
+              <h1>750+</h1>
+              <h4>Projects Finished</h4>
+            </div>
+            <div class="clients">
+              <h1>340+</h1>
+              <h4>Happy Clients</h4>
+            </div>
+            <div class="awards">
+              <h1>128+</h1>
+              <h4>Awards</h4>
+            </div>
+          </div>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ducimus,
+            ipsam nobis esse incidunt voluptatem itaque soluta repellat pariatur
+            ipsa culpa at saepe sunt, excepturi optio. Repudiandae expedita
+            assumenda corporis illo?
+          </p>
+          <div class="btn-box">
+            <button>Discover Company</button>
+            <div class="pseudo-element"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End About -->
+    <!-- Start Services -->
+    <section class="services" id="services">
+      <div class="container">
+        <div class="heading">
+          <h4>OUR SERVICES</h4>
+          <h1>
+            Discover What We Do & <span>Offer</span> To Our <span>Clients</span>
+          </h1>
+        </div>
+        <div class="cards">
+          <div class="service">
+            <div class="image">
+              <img src="images/service-icon-01.png" alt="" />
+            </div>
+            <div class="text">
+              <h2>Similar Websites</h2>
+              <p>
+                Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+                accusantium dormque laudantium.
+              </p>
+            </div>
+          </div>
+          <div class="service">
+            <div class="image">
+              <img src="images/service-icon-02.png" alt="" />
+            </div>
+            <div class="text">
+              <h2>Website Trends</h2>
+              <p>
+                Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+                accusantium dormque laudantium.
+              </p>
+            </div>
+          </div>
+          <div class="service">
+            <div class="image">
+              <img src="images/service-icon-03.png" alt="" />
+            </div>
+            <div class="text">
+              <h2>Traffic Analysis</h2>
+              <p>
+                Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+                accusantium dormque laudantium.
+              </p>
+            </div>
+          </div>
+          <div class="service">
+            <div class="image">
+              <img src="images/service-icon-03.png" alt="" />
+            </div>
+            <div class="text">
+              <h2>Optimizing Keywords</h2>
+              <p>
+                Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+                accusantium dormque laudantium.
+              </p>
+            </div>
+          </div>
+          <div class="service">
+            <div class="image">
+              <img src="images/service-icon-02.png" alt="" />
+            </div>
+            <div class="text">
+              <h2>Page Optimizations</h2>
+              <p>
+                Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+                accusantium dormque laudantium.
+              </p>
+            </div>
+          </div>
+          <div class="service">
+            <div class="image">
+              <img src="images/service-icon-01.png" alt="" />
+            </div>
+            <div class="text">
+              <h2>Deep URL Analysis</h2>
+              <p>
+                Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+                accusantium dormque laudantium.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Services -->
+    <!-- Start Portfolio -->
+    <section class="portfolio" id="portfolio">
+      <div class="container">
+        <div class="heading">
+          <h4>OUR PORTOFOLIO</h4>
+          <h1>
+            Discover Our Recent <span>Projects</span> And <span>Showcases</span>
+          </h1>
+        </div>
+        <div class="cards">
+          <div class="project">
+            <img src="images/portfolio-01.jpg" alt="" />
+            <div class="content">
+              <h2>Awesome Project 101</h2>
+              <h4>Creative</h4>
+            </div>
+          </div>
+          <div class="project">
+            <img src="images/portfolio-02.jpg" alt="" />
+            <div class="content">
+              <h2>Awesome Project 102</h2>
+              <h4>Branding</h4>
+            </div>
+          </div>
+          <div class="project">
+            <img src="images/portfolio-03.jpg" alt="" />
+            <div class="content">
+              <h2>Awesome Project 103</h2>
+              <h4>Marketing</h4>
+            </div>
+          </div>
+          <div class="project">
+            <img src="images/portfolio-04.jpg" alt="" />
+            <div class="content">
+              <h2>Awesome Project 104</h2>
+              <h4>ArtWork</h4>
+            </div>
+          </div>
+          <div class="project">
+            <img src="images/portfolio-05.jpg" alt="" />
+            <div class="content">
+              <h2>Awesome Project 105</h2>
+              <h4>Consulting</h4>
+            </div>
+          </div>
+          <div class="project">
+            <img src="images/portfolio-06.jpg" alt="" />
+            <div class="content">
+              <h2>Awesome Project 106</h2>
+              <h4>Marketing</h4>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Portfolio -->
+    <!-- Start Contact -->
+    <section class="contact" id="contact">
+      <div class="container">
+        <div class="heading">
+          <h4>CONTACT US</h4>
+          <h1>
+            Fill Out The Form Below To <span>Get</span> In
+            <span>Touch</span> With Us
+          </h1>
+        </div>
+        <div class="content">
+          <form action="#">
+            <div class="name">
+              <input type="text" required placeholder="Name" />
+              <input type="text" required placeholder="Surname" />
+            </div>
+            <div class="email">
+              <input type="email" required placeholder="Email" />
+              <input type="text" required placeholder="Subject" />
+            </div>
+            <textarea
+              cols="30"
+              rows="10"
+              required
+              placeholder="Message"
+            ></textarea>
+            <div class="btn-box">
+              <button>Send Message</button>
+              <div class="pseudo-element"></div>
+            </div>
+          </form>
+          <div class="data">
+            <div class="email">
+              <i class="fa-solid fa-envelope"></i>
+              <h4>info@company.com</h4>
+            </div>
+            <div class="phone">
+              <i class="fa-solid fa-phone"></i>
+              <h4>+001-002-0034</h4>
+            </div>
+            <div class="location">
+              <i class="fa-solid fa-location-dot"></i>
+              <h4>26th Street, Digital Villa</h4>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Contact -->
+    <!-- Start Footer -->
+    <footer>
+      <h3>
+        Copyright © 2021 SEO Dream Co., Ltd. All Rights Reserved. Web Designed
+        by
+        <span style="color: var(--main-color)">Zyad_Ramadan</span>
+      </h3>
+    </footer>
+    <!-- End Footer -->
+  </body>
+</html>
